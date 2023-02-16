@@ -1,25 +1,91 @@
 <!DOCTYPE html>
-<meta charset="UTF-8">
-<html>
+<html lang="jp">
 <head>
-  <title>this is a test wesite</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <title>デイトラ30DAYSトライアル!</title>
+    <meta name="description" content="デイトラ30DAYSトライアル初級編のLPページです">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-  <h1>test</h1>
-  
-  <p>
-  <label><input type="checkbox" name="group1" value="test" >test</label><br>
-  <label><input type="checkbox" name="group1" value="test2">test2</label>
-  </p>
-  
-  <p>
-  <label><input type="radio" name="group1" value="test" >test</label><br>
-  <label><input type="radio" name="group1" value="test2">test2</label>
-  </p>
-  
-  <p>
-    <input type="submit" value="送信">
-  </p>
-  
+    <header>
+        <div class="container clear">
+            <div class="header-left">
+                <h1 class="header-title">30DAYSトライアル</h1>
+            </div>
+            <div class="header-right">
+                <ul class="header-nav clear">
+                    <li class="header-nav-item"><a href="#">デイトラとは</a></li>
+                    <li class="header-nav-item"><a href="#">コース一覧</a></li>
+                    <li class="header-nav-item"><a href="#">お問い合わせ</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="top  section">
+        <h2 class="top-title">1日1題30日で</h2>
+        <h2 class="top-title">プロのWebエンジニアになろう！</h2>
+        <p>毎日設定された課題をこなすだけ！</p>
+        <p>未経験から30日でプログラミングスキルをつけよう</p>
+    </section>
+
+    <section class="about section">
+        <div class="container">
+            <h2 class="section-title">デイトラとは</h2>
+            <div class="text-wrapper clear">
+                <div class="about-left">
+                    <img src="./img/about.png" alt="デイトラとは">
+                </div>
+                <div class="about-right">
+                    <p>デイトラとは、無料で・迷わず・楽しく学べるプログラミング学習アプリです。 毎日設定された課題をこなしていくだけで、未経験から30日でプログラミングスキルが身につきます。
+                    1日1題30日でプロのWebエンジニアを目指しましょう!</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="course  section">
+        <div class="container">
+            <h2 class="section-title">コース一覧</h2>
+            <div class="courses">
+                <div class="course-detail">
+                    <img src="./img/web_first.png" alt="web_first">
+                    <p class="course-title">HTML / CSS / Bootstrap</p>
+                </div>
+                <div class="course-detail">
+                    <img src="./img/web_second.png" alt="web_second">
+                    <p class="course-title">HTML / CSS / JavaScript / jQuery</p>
+                </div>
+                <div class="course-detail">
+                    <img src="./img/web_third.png" alt="web_third">
+                    <p class="course-title">PHP / WordPress</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="contact  section">
+        <div class="container">
+            <h2 class="section-title">お問い合わせ</h2>
+            <p>さあ今日から30日間を始めよう!</p>
+            <input type="email" class="email" name="email" id="email" placeholder="メールアドレス"><br>
+            <button type="submit" class="btn btn-register">無料で始める</button>
+        </div>
+
+    </section>
+
+    <footer>
+            <div class="container clear">
+                <p class="footer-right">Copyright(C) 2020 東京フリーランス ALL Rights Reserved.</p>
+            </div>
+
+    </footer>
 </body>
 </html>
